@@ -33,7 +33,6 @@ section {
   color: #131313;
   font-size: 45px;
   font-weight: 700;
-  margin: 0;
 }
 
 .sub-title {
@@ -110,6 +109,8 @@ nav ul li a {
   color: #131313;
   font-size: 64px;
   font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .banner p {
@@ -158,6 +159,7 @@ nav ul li a {
   width: 80%;
   border-left: 6px solid #ff900e;
   padding-left: 15px;
+  margin-bottom: 30px;
 }
 .content-side {
   width: 50%;
@@ -224,6 +226,33 @@ nav ul li a {
 }
 .some-facts .box .sub-title {
   color: #727272;
+}
+
+/* sponsor */
+
+.sponsor {
+  text-align: center;
+}
+.sponsor h1 {
+  margin-bottom: 20px;
+}
+.sponsor p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sponsor .sponsor-logo {
+  margin-top: 50px;
+}
+
+.sponsor .sponsor-logo img {
+  width: auto;
+  height: 50px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.sponsor .sponsor-logo img:hover {
+  filter: grayscale(0%);
 }
 
 /* Footer */
