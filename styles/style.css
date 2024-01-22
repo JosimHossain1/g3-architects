@@ -119,3 +119,27 @@ nav ul li a {
 .banner img {
   width: 100%;
 }
+
+/* Quick List */
+.quick-list {
+  padding: 50px 0;
+  gap: 70px;
+}
+.quick-list .image-side {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.quick-list .image-side img {
+  width: 100%;
+}
+
+.quick-list .content-side {
+  width: 50%;
+}
+
+.quick-list .content-side .gray-text {
+  color: #727272;
+  font-weight: 500;
+}
