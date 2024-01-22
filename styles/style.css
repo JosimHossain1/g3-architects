@@ -143,3 +143,58 @@ nav ul li a {
   color: #727272;
   font-weight: 500;
 }
+
+/* experience */
+.experience {
+  gap: 70px;
+}
+
+.experience h1 {
+  width: 80%;
+  border-left: 6px solid #ff900e;
+  padding-left: 15px;
+}
+.content-side {
+  width: 50%;
+}
+
+.experience .short-content-box {
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.055);
+  padding: 10px;
+  margin: 20px 0;
+}
+.experience .short-content-box .sub-title {
+  margin: 0;
+}
+.image-side {
+  width: 50%;
+  position: relative;
+}
+
+.experience img {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.experience .experience-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px 0;
+  z-index: 2;
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+}
+.experience .experience-box p {
+  color: white;
+  margin: 0;
+}
+.experience .experience-box h1 {
+  color: white;
+  margin: 0;
+}
